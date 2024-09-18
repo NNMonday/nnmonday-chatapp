@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema(
     },
     avatar: {
       type: String,
-      default: process.env.DEFAULT_AVATAR,
+      default: 'https://static.vecteezy.com/system/resources/previews/009/292/244/original/default-avatar-icon-of-social-media-user-vector.jpg',
     },
     verify: {
       type: Boolean,
